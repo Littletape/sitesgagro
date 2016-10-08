@@ -46,7 +46,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <span>EVENTO</span>
             <ul class="dropdown-menu">
-              <li class="nav-item"><a class="nav-link" href="evento.php">APRESENTAÇÃO</a></li>
+              <li class="nav-item"><a class="nav-link" href="apresentacao.php">APRESENTAÇÃO</a></li>
               <li class="nav-item"><a class="nav-link" href="datasimportantes.php">DATAS IMPORTANTES</a></li>
               <li class="nav-item"><a class="nav-link" href="programacao.php">PROGRAMAÇÃO</a></li>
             </ul>
