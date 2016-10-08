@@ -10,10 +10,10 @@
   <title>SGAgro</title>
 </head>
 
-<nav class="navbar navbar-default" style="border: 1px solid #999; border-radius: 5px; background: white;">
+<nav class="navbar navbar-default">
   <!--div class="row">
       <div class="col-md-2 col-xs-2">
-          <img src="../webroot/images/logo2.png" style="height: 50%">
+          <img src="../webroot/images/logo.png" style="height: 50%">
       </div>
 
       <div class="col-md-8 col-xs-10">
@@ -23,7 +23,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <a class="navbar-brand" href="#" style="color: rgb(11,27,68);">
-        <span><img src="../webroot/images/logo3.png" height="120%"></span> SGAgro
+        <span><img src="../webroot/images/logo.png" height="135%"></span> SGAgro
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
