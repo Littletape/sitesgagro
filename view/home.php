@@ -49,9 +49,10 @@
         
       </div><!--fim main-->
 
-      <?php include_once("lateral_rodape.php"); ?>
-
     </div>
+
+    <?php include_once("lateral_rodape.php"); ?>
+    
   </div><!--row-->
 
 </div>
