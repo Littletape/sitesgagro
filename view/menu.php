@@ -35,7 +35,7 @@
       <ul class="nav navbar-nav"   style="color: green;">
 
         <li class="nav-item"><a class="nav-link" href="home.php">HOME</a></li>
-        <li class="nav-item"><a class="nav-link" href="trabalhos.php">SUBMISSÃO</a></li>
+        <li class="nav-item"><a class="nav-link" href="submissao.php">SUBMISSÃO</a></li>
         <li class="nav-item"><a class="nav-link" href="resultado.php" >RESULTADOS</a></li>
         <li class="nav-item"><a class="nav-link" href="expediente.php">EXPEDIENTE</a></li>
 
