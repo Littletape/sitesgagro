@@ -15,7 +15,7 @@
 				<div class="panel-body"  id="tabAva" style="height:620px;overflow:auto">
 
 					<div class="input-group">
-						<input id="nomeAvaliador" name="titulo" type="text" class="form-control" placeholder="Informe o nome do avaliador para filtrar o resultado">
+						<input id="nomeAvaliador" name="titulo" type="text" class="form-control" placeholder="Informe o nome de um dos autores pra filtrar os resultados">
 						<span class="input-group-btn">
 							<button class="btn btn-primary glyphicon glyphicon-filter" id="buscaAvaliador" type="button"></button>
 						</span>
