@@ -2,6 +2,7 @@
 <html>
 	<style type="text/css">
 		.borda{ border: solid black 2px; }
+		.list-group>.list-group-item{padding: 12.8px;}
 	</style>
 	<body> 
 
