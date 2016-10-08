@@ -45,16 +45,16 @@
 						
 							<ul class="list-group">
 							 	<li class="list-group-item active">As opções de fast track são:</li>
-							    <li class="list-group-item">Organizações Rurais & Agroindustriais</li>
-							    <li class="list-group-item">Revista Espaço de Diálogo e Desconexão</li>
-							    <li class="list-group-item">Revista de Administração da UNIMEP</li>
-							    <li class="list-group-item">Revista de Administração FACES</li>
-							    <li class="list-group-item">Custos e Agronegócio Online</li>
-							    <li class="list-group-item">Contabilidade, Gestão e Governançae</li>
-							    <li class="list-group-item">Revista Gestão & Planejamentoe</li>
-							    <li class="list-group-item">Revista de Administração, Contabilidade e Economia da FUNDACE/USP	Revista GEPROS</li>
-							    <li class="list-group-item">Caderno Profissional de Administração UNIMEP</li>
-							    <li class="list-group-item">Revista FACEF Pesquisa – Edição Especial (Gestão de Agronegócio e Desenvolvimento) com 8 artigos selecionados</li>
+							    <li class="list-group-item"><a href="#">Organizações Rurais & Agroindustriais </a></li>
+							    <li class="list-group-item"><a href="#">Revista Espaço de Diálogo e Desconexão </a></li>
+							    <li class="list-group-item"><a href="#">Revista de Administração da UNIMEP </a></li>
+							    <li class="list-group-item"><a href="#">Revista de Administração FACES </a></li>
+							    <li class="list-group-item"><a href="#">Custos e Agronegócio Online </a></li>
+							    <li class="list-group-item"><a href="#">Contabilidade, Gestão e Governançae </a></li>
+							    <li class="list-group-item"><a href="#">Revista Gestão & Planejamentoe </a></li>
+							    <li class="list-group-item"><a href="#">Revista de Administração, Contabilidade e Economia da FUNDACE/USP	Revista GEPROS </a></li>
+							    <li class="list-group-item"><a href="#">Caderno Profissional de Administração UNIMEP </a></li>
+							    <li class="list-group-item"><a href="#">Revista FACEF Pesquisa – Edição Especial (Gestão de Agronegócio e Desenvolvimento) com 8 artigos selecionados </a></li>
 
 							</ul>
 					</div>
