@@ -10,8 +10,8 @@
   <title>SGAgro</title>
 </head>
 
-<nav class="navbar navbar-default">
-  <div class="row">
+<nav class="navbar navbar-default" style="border: 1px solid #999; border-radius: 5px; background: white;">
+  <!--div class="row">
       <div class="col-md-2 col-xs-2">
           <img src="../webroot/images/logo2.png" style="height: 50%">
       </div>
@@ -19,9 +19,12 @@
       <div class="col-md-8 col-xs-10">
           <center><h1 style="color: rgb(50,180,74)">II simposio em gestão do agronegocio</h1></center>
       </div>
-    </div>
+    </div-->
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="color: rgb(11,27,68);">
+        <span><img src="../webroot/images/logo3.png" height="120%"></span> SGAgro
+      </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
