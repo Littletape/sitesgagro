@@ -10,9 +10,9 @@
   <div class="row">
     <div class="col-md-8 col-xs-12">
 
-      <div class="col-md-12 col-xs-12" style="border: 1px solid #999; border-radius: 5px; background: white;"><!--main-->
-
-        <article class="text-justify">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <article class="text-justify">
           <h3>Evento</h3>
           
           <p>O Simpósio em Gestão do Agronegócio é organizado pelo Programa de Pós-
@@ -45,13 +45,41 @@
           <p>É inegável a importância do Agronegócio para a Região de Ribeirão Preto, onde está inserida a cidade de Jaboticabal/SP, que é conhecida como uma das capitais do agronegócio brasileiro, já que segundo a Agência Paulista de Promoção de Investimento e Competitividade o interior paulista foi responsável por 15,4% do agronegócio brasileiro em 2012.</p>
           <p>Apesar da importância deste segmento na economia paulista, a oferta de programas de pós-graduação stricto sensu em Administração no interior do Estado compreende 5 programas, sendo que nenhum destes é voltado à gestão de organizações agroindustriais.</p>
           <p>Assim surgiu o Programa de Mestrado Profissional em Administração na FCAV/UNESP, com foco na Gestão de Organizações Agroindustriais (GOAgro), atendendo a um antigo anseio da comunidade profissional e científica da região: unir a excelência no campo das agrárias com modernas ferramentas de gestão.</p>
-        </article>
-        
-      </div><!--fim main-->
+          </article>
+        </div>
+      </div>
 
     </div>
 
-    <?php include_once("lateral_rodape.php"); ?>
+    <div class="col-md-4 col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+        </div>
+      </div>  
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+          <h1>Teste</h1>
+        </div>
+      </div>  
+    </div>
+
+    <div class="col-md-12 col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>Teste</h1>
+        </div>
+      </div>  
+    </div>
     
   </div><!--row-->
 

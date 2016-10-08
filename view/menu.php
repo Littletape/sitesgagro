@@ -22,8 +22,8 @@
     </div-->
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color: rgb(11,27,68);">
-        <span><img src="../webroot/images/logo.png" height="135%"></span> SGAgro
+      <a href="home.php">
+        <img src="../webroot/images/logo2.png" width="35%">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -35,7 +35,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav"   style="color: green;">
+      <ul class="nav navbar-nav navbar-right">
 
         <li class="nav-item"><a class="nav-link" href="home.php">HOME</a></li>
         <li class="nav-item"><a class="nav-link" href="submissao.php">SUBMISSÃO</a></li>
