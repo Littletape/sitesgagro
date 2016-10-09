@@ -45,7 +45,7 @@
 	      <textarea class="form-control" id="message" name="message" placeholder="Mensagem" rows="5"></textarea><br>
 	      <div class="row">
 	        <div class="col-sm-12 form-group">
-	          <input type="submit" class="btn btn-default pull-right" value="Enviar">
+	          <input type="submit" class="btn btn-default pull-right btn btn-primary" value="Enviar">
                 </form>
 	        </div>
 	      </div> 
