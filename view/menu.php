@@ -40,22 +40,23 @@
         <li class="nav-item"><a class="nav-link" href="home.php">HOME</a></li>
         <li class="nav-item"><a class="nav-link" href="submissao.php">SUBMISSÃO</a></li>
         <li class="nav-item"><a class="nav-link" href="resultado.php" >RESULTADOS</a></li>
-        <li class="nav-item"><a class="nav-link" href="expediente.php">EXPEDIENTE</a></li>
+        
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <span>EVENTO</span>
+            EVENTO <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
               <li class="nav-item"><a class="nav-link" href="apresentacao.php">APRESENTAÇÃO</a></li>
               <li class="nav-item"><a class="nav-link" href="datasimportantes.php">DATAS IMPORTANTES</a></li>
               <li class="nav-item"><a class="nav-link" href="programacao.php">PROGRAMAÇÃO</a></li>
+              <li class="nav-item"><a class="nav-link" href="expediente.php">EXPEDIENTE</a></li>
             </ul>
           </a>
         </li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <span>EDIÇÕES</span>
+            EDIÇÕES <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
               <li class="nav-item"><a class="nav-link" href="anais.php">EDIÇÃO ATUAL</a></li>
               <li class="nav-item"><a class="nav-link" href="edicaoant.php">EDIÇÃO ANTERIORES</a></li> 
