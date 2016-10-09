@@ -1,8 +1,8 @@
 <div class="container">
 		<?php include_once("menu.php"); ?>
 
-
-<table class=" table table-bordered table-condensed">
+<h3 style="text-align: center">Em breve</h3>
+<!-- <table class=" table table-bordered table-condensed">
 			<tbody><tr><th>Horario</th><th><a href="#primeiro">Quarta-feira<br>08/06/2017</a></th><th><a href="#segundo">Quinta-feira<br>09/06/2017</a></th><th><a href="#terceiro">Sexta-feira<br>10/06/2017</a></th></tr>
 			<tr><td>09:00</td><td rowspan="5">Credenciamento</td><td rowspan="3">Sessões com apresentações de trabalho</td><td rowspan="3">Mini-Cursos</td></tr>
 			<tr><td>10:00</td></tr>
@@ -20,7 +20,7 @@
 			<tr><td>21:00</td></tr>
 			<tr><td>22:00</td></tr>
 			
-		</tbody></table>
+		</tbody></table> -->
 </div>
 
 

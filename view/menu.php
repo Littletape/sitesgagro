@@ -9,14 +9,16 @@
   <script src="../webroot/js/bootstrap.min.js"></script>
   <title>SGAgro</title>
   <style type="text/css">
-    body{margin-top:30px;}
+    body{margin-top:30px;
+
+    }
     .navbar-default{
-      background-color: white;
+      background-color: transparent;
       border: none;
       margin-bottom: 60px;
     }
     .active{color: white; text-decoration:none; background-color: rgb(50,180,74);}
-    a{font-weight: bolder; color: #fff;}
+    a{font-weight: bolder; color: black;}
     .div{background-color: #fff }
   </style>
 </head>
