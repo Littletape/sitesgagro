@@ -10,7 +10,7 @@ if (isset($_COOKIE['counte'])) {
   $a++;
 }
 setcookie('counte', "$counte", time()+3700);
-$abre =@fopen("contador.php","a+");
+$abre =@fopen("contador.php","w");
 $ss ='<?php $a='.$a.'; ?>';
 $escreve =fwrite($abre, $ss);
 ?>
@@ -85,7 +85,7 @@ $escreve =fwrite($abre, $ss);
                     </div>
                     <div class="panel-body">
                      <?php
-                     echo "<th>$a Pessoas visitaram esse site voce ja vitou $counte vezes</th>";
+                     echo "<th><span class='text text-success'>$a</span> Pessoas visitaram esse site voce ja vitou <span class='text text-info'> $counte</span> vezes</th>";
                      ?>  
                    </div>
                  </div>  
@@ -111,4 +111,5 @@ $escreve =fwrite($abre, $ss);
           <style>
             th{background-color: #337AB7; color:#fff;}
             th{text-align: center}
+            span{font-weight: bold;}
           </style>
