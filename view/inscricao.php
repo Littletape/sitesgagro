@@ -55,16 +55,14 @@
 				<br>
 				<!-- incio da nota de esclarecimetno -->
 				<div class="row">
-					
-					<div class="col-md-12 alert alert-danger">
-					
-						<p> <b>Acadêmicos:</b> docentes, pesquisadores e alunos de programa de pós graduação com trabalhos aceitos para publicação. </p>
-						<p> <b>Avaliador:</b> docentes e pesquisadores cadastrados como avaliadores do evento.<//p 
-						<p> <b>Estudante:</b> alunos de instituições de ensino superior nos níveis de graduação e tecnológico. </p>
-						<p> <b>Profissionais:</b> empresários, empreendedores, funcionários de empresas privadas, públicas ou demais organizações e profissionais liberais que tenham interesse em participar como ouvintes do evento. </p>
+					<div class="col-md-12">
+						<div class="alert alert-danger">
+							<p> <b>Acadêmicos:</b> docentes, pesquisadores e alunos de programa de pós graduação com trabalhos aceitos para publicação. </p>
+							<p> <b>Avaliador:</b> docentes e pesquisadores cadastrados como avaliadores do evento.<//p 
+							<p> <b>Estudante:</b> alunos de instituições de ensino superior nos níveis de graduação e tecnológico.</p>
+							<p> <b>Profissionais:</b> empresários, empreendedores, funcionários de empresas privadas, públicas ou demais organizações e profissionais liberais que tenham interesse em participar como ouvintes do evento. </p>
+						</div>
 					</div>
-				
-
 				</div>	
 				<!-- fim da nota de esclarecimento  -->
 					
