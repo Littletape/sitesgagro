@@ -9,17 +9,12 @@
 				<tbody>	
 						<tr>
 
-							<td	>07 de Novembro</td>
+							<td	>07/11/2016</td>
 							<td	>Abertura para submissão de trabalhos</td>
 						</tr>
 						<tr>
 
-							<td	></td>
-							<td	>Submissão de Trabalhos</td>
-						</tr>
-						<tr>
-
-							<td	></td>
+							<td	>06/03/2017</td>
 							<td	>Encerramento da submissão de Trabalhos</td>
 						</tr>
 						<tr>
@@ -29,16 +24,25 @@
 						</tr>
 						<tr>
 
-							<td	></td>
-							<td	>Inscrições com desconto</td>
+							<td	>07/04/2017</td>
+							<td	>Início das inscrições com desconto</td>
 						</tr>
 						<tr>
 
-							<td	></td>
-							<td	>Inscrições sem desconto</td>
+							<td	>10/05/2017</td>
+							<td	>Fim das inscrições com desconto</td>
 						</tr>
 						<tr>
 
+							<td	>11/05/2016</td>
+							<td	>Início das inscrições sem desconto</td>
+						</tr>
+						<tr>
+
+							<td	>30/05/2016</td>
+							<td	>Início das inscrições sem desconto</td>
+						</tr>
+						<tr>
 							<td	></td>
 							<td	>Evento</td>
 						</tr>
