@@ -3,7 +3,7 @@
       } ?>
 	<style type="text/css">
         li{
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 700;
         }
         nav{

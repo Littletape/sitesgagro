@@ -77,7 +77,7 @@
 
         <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
         <li id="contato" class="nav-item"><a class="nav-link" href="contato.php?id=contato">CONTATO</a></li>
-        <li id=" login" class="nav-item"><a class="nav-link" href="../../sistema/index.php?id=login" target="blank">LOGIN</a></li>
+        <li id=" login" class="nav-item"><a class="nav-link" href="../sistema/submissao/index.php?id=login" target="blank">LOGIN</a></li>
 
       </ul>
     </div>
