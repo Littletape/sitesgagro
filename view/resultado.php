@@ -10,7 +10,7 @@
 			<div class="col-md-12">
 
 				<div class="panel panel-success">
-				<div class="panel-heading"><center>Trabalho aprovados</center></div>
+				<div class="panel-heading" style=" background-color: #337AB7; color:#fff; font-weight: bold;"><center>Trabalho aprovados</center></div>
 				
 				<div class="panel-body"  id="tabAva" style="height:620px;overflow:auto">
 
