@@ -15,6 +15,9 @@
       border: none;
       margin-bottom: 60px;
     }
+    .active{color: white; text-decoration:none; background-color: rgb(50,180,74);}
+    a{font-weight: bolder; color: #fff;}
+    .div{background-color: #fff }
   </style>
 </head>
 
@@ -45,37 +48,47 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
 
-        <li class="nav-item"><a class="nav-link" href="home.php">HOME</a></li>
-        <li class="nav-item"><a class="nav-link" href="submissao.php">SUBMISSÃO</a></li>
-        <li class="nav-item"><a class="nav-link" href="resultado.php" >RESULTADOS</a></li>
+        <li id="home" class="nav-item"><a class="nav-link" href="home.php?id=home">HOME</a></li>
+        <li id="submissao" class="nav-item"><a class="nav-link" href="submissao.php?id=submissao">SUBMISSÃO</a></li>
+        <li id="resultado" class="nav-item"><a class="nav-link" href="resultado.php?id=resultado" >RESULTADOS</a></li>
         
 
-        <li class="dropdown">
+        <li class="dropdown" id="evento">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             EVENTO <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
-              <li class="nav-item"><a class="nav-link" href="apresentacao.php">APRESENTAÇÃO</a></li>
-              <li class="nav-item"><a class="nav-link" href="datasimportantes.php">DATAS IMPORTANTES</a></li>
-              <li class="nav-item"><a class="nav-link" href="programacao.php">PROGRAMAÇÃO</a></li>
-              <li class="nav-item"><a class="nav-link" href="expediente.php">EXPEDIENTE</a></li>
+              <li id="apresentacao" class="nav-item"><a class="nav-link" href="apresentacao.php?id=evento">APRESENTAÇÃO</a></li>
+              <li id="datas" class="nav-item"><a class="nav-link" href="datasimportantes.php?id=evento">DATAS IMPORTANTES</a></li>
+              <li id="programacao" class="nav-item"><a class="nav-link" href="programacao.php?id=evento">PROGRAMAÇÃO</a></li>
+              <li id="expediente" class="nav-item"><a class="nav-link" href="expediente.php?id=evento">EXPEDIENTE</a></li>
             </ul>
           </a>
         </li>
 
-        <li class="dropdown">
+        <li class="dropdown" id="edicoes">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             EDIÇÕES <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
-              <li class="nav-item"><a class="nav-link" href="anais.php">EDIÇÃO ATUAL</a></li>
-              <li class="nav-item"><a class="nav-link" href="edicaoant.php">EDIÇÃO ANTERIORES</a></li> 
+              <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO ATUAL</a></li>
+              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO ANTERIORES</a></li> 
             </ul>
           </a>
         </li>
 
-        <li class="nav-item"><a class="nav-link" href="inscricao.php">INSCRIÇÃO</a></li>
-        <li class="nav-item"><a class="nav-link" href="contato.php">CONTATO</a></li>
-        <li class="nav-item"><a class="nav-link" href="../../sistema/index.php" target="blank">LOGIN</a></li>
+        <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
+        <li id="contato" class="nav-item"><a class="nav-link" href="contato.php?id=contato">CONTATO</a></li>
+        <li id=" login" class="nav-item"><a class="nav-link" href="../../sistema/index.php?id=login" target="blank">LOGIN</a></li>
 
       </ul>
     </div>
   </nav>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    var status = "<?php echo $_GET['id']; ?>";
+    console.log(status);
+    $('#'+status).addClass('active');
+
+
+  });
+</script>
