@@ -76,3 +76,8 @@
 	<!-- fim do container -->
 </body>
 </html>
+
+<style type="text/css">
+	th,	td{text-align: 	center;	}
+	th{background-color: #337AB7; color:#fff;}
+</style>
