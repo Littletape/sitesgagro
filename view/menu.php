@@ -65,7 +65,7 @@
 
         <li class="nav-item"><a class="nav-link" href="inscricao.php">INSCRIÇÃO</a></li>
         <li class="nav-item"><a class="nav-link" href="contato.php">CONTATO</a></li>
-        <li class="nav-item"><a class="nav-link" href="../../sistema/index.php" target="blank">SISTEMA</a></li>
+        <li class="nav-item"><a class="nav-link" href="../../sistema/index.php" target="blank">LOGIN</a></li>
 
       </ul>
     </div>
