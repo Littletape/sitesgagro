@@ -59,8 +59,9 @@ $escreve =fwrite($abre, $ss);
                         <p>É inegável a importância do Agronegócio para a Região de Ribeirão Preto, onde está inserida a cidade de Jaboticabal/SP, que é conhecida como uma das capitais do agronegócio brasileiro, já que segundo a Agência Paulista de Promoção de Investimento e Competitividade o interior paulista foi responsável por 15,4% do agronegócio brasileiro em 2012.</p>
                         <p>Apesar da importância deste segmento na economia paulista, a oferta de programas de pós-graduação stricto sensu em Administração no interior do Estado compreende 5 programas, sendo que nenhum destes é voltado à gestão de organizações agroindustriais.</p>
                         <p>Assim surgiu o Programa de Mestrado Profissional em Administração na FCAV/UNESP, com foco na Gestão de Organizações Agroindustriais (GOAgro), atendendo a um antigo anseio da comunidade profissional e científica da região: unir a excelência no campo das agrárias com modernas ferramentas de gestão.</p>
-                      </article>
+                </article>
                 
+                 <div class="fb-comments" data-href="https://www.facebook.com/SGAgro-164350053919134/?fref=ts" data-numposts="2"></div>
 
                 </div>
 
@@ -70,20 +71,28 @@ $escreve =fwrite($abre, $ss);
                  
                 </div>
 
-                <div class="col-md-4 col-xs-12">
+               
+
+                <!-- <div class="col-md-4 col-xs-12">
                   <div class="panel panel-primary">
                     <div class=" panel-heading">
                       Contador de Visitas
                     </div>
                     <div class="panel-body">
                      <?php
-                     echo "<th><span class='text text-success'>$a</span> Pessoas visitaram esse site voce ja vitou <span class='text text-info'> $counte</span> vezes</th>";
+                     // echo "<th><span class='text text-success'>$a</span> Pessoas visitaram esse site voce ja vitou <span class='text text-info'> $counte</span> vezes</th>";
                      ?>  
                    </div>
                  </div>  
-               </div>
+               </div> -->
 
-
+                
+                <!-- <div class="col-md-12 col-xs-12"> -->
+                  
+               <!--  <div id="fb-root"></div> -->
+               
+                    
+               <!-- </div> -->
 
                 <div class="col-md-12 col-xs-12">
                   <div class="panel panel-default">
@@ -105,3 +114,12 @@ $escreve =fwrite($abre, $ss);
             th{text-align: center}
             span{font-weight: bold;}
           </style>
+
+            <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>

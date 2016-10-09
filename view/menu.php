@@ -1,13 +1,21 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sistema especialista em Simpósios">
-    <meta name="keywords" content="sgagro, Agronegócios,Faculdade de Ciências Agrárias e Veterinárias, Universidade Estadual Paulista (FCAV/UNESP), FCAV,UNESP,Gestão do Agronegócio,Simpósio em Gestão do Agronegócio, Simpósio, UNESP: Câmpus de Jaboticabal, jaboticabal">
-    <link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../webroot/js/bootstrap.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sistema especialista em Simpósios">
+  <meta name="keywords" content="sgagro, Agronegócios,Faculdade de Ciências Agrárias e Veterinárias, Universidade Estadual Paulista (FCAV/UNESP), FCAV,UNESP,Gestão do Agronegócio,Simpósio em Gestão do Agronegócio, Simpósio, UNESP: Câmpus de Jaboticabal, jaboticabal">
+  <link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../webroot/js/bootstrap.min.js"></script>
   <title>SGAgro</title>
+  <style type="text/css">
+    body{margin-top:30px;}
+    .navbar-default{
+      background-color: white;
+      border: none;
+      margin-bottom: 60px;
+    }
+  </style>
 </head>
 
 <nav class="navbar navbar-default">
@@ -21,9 +29,9 @@
       </div>
     </div-->
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    <div class="navbar-brand">
       <a href="home.php">
-        <img src="../webroot/images/logo2.png" width="35%">
+        <img src="../webroot/images/SGAGRO LOGO.png" width="10%">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
