@@ -9,9 +9,12 @@
   <script src="../webroot/js/bootstrap.min.js"></script>
   <title>SGAgro</title>
   <style type="text/css">
-    body{margin-top:30px;
-
+    body{
+      margin-top:30px;
+      background-image: url('../webroot/images/natureza.jpg');
+      border-radius: 100px;
     }
+    .container{background-color: white;}
     .navbar-default{
       background-color: transparent;
       border: none;
@@ -20,6 +23,7 @@
     .active{color: white; text-decoration:none; background-color: rgb(50,180,74);}
     a{font-weight: bolder; color: black;}
     .div{background-color: #fff }
+
   </style>
 </head>
 
