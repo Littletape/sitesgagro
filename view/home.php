@@ -64,27 +64,29 @@ $escreve =fwrite($abre, $ss);
                   <div class="fb-comments" data-href="https://www.facebook.com/SGAgro-164350053919134/?fref=ts" data-numposts="2"></div>
 
                 </div>
+                <br><br><br>
+                <div class="col-md-4 col-xs-12">
+                  <div class="panel panel-success">
+                    <div class=" panel-heading" style="background-color: #A8C660;color: white;font-weight: bold;">
+                      Contador de Visitas
+                    </div>
+                    <div class="panel-body">
+                     <?php
+                     echo "<th><span class='text text-success'>$a</span> Pessoas visitaram esse site voce ja vitou <span class='text text-info'> $counte</span> vezes</th>";
+                     ?>  
+                   </div>
+                 </div>  
+               </div>
 
                 <div class="col-md-4 col-xs-12">
 
-                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSGAgro-164350053919134%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSGAgro-164350053919134%2F%3Ffref%3Dts&tabs=timeline&width=340&height=550&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
                 </div>
 
 
 
-                <!-- <div class="col-md-4 col-xs-12">
-                  <div class="panel panel-primary">
-                    <div class=" panel-heading">
-                      Contador de Visitas
-                    </div>
-                    <div class="panel-body">
-                     <?php
-                     // echo "<th><span class='text text-success'>$a</span> Pessoas visitaram esse site voce ja vitou <span class='text text-info'> $counte</span> vezes</th>";
-                     ?>  
-                   </div>
-                 </div>  
-               </div> -->
+                
 
 
                <!-- <div class="col-md-12 col-xs-12"> -->
@@ -94,55 +96,7 @@ $escreve =fwrite($abre, $ss);
 
                <!-- </div> -->
 
-               <div class="col-md-12 col-xs-12" style="background-color: #fff">
-              
-                    <div class="row" style="margin-left:60px">
-                      <div class="col-md-12" >
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/unesplogo.jpg" style="width:35%; heigth:35%;">
-                        </div>
-
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/funeplogo.jpg" style="width:50%; heigth:50%; margin-top:15px">
-                        </div>
-
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/propg.jpg" style="width:30%; heigth:30%;">
-                        </div>
-
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/sociocanalogo.jpg" style="width:50%; heigth:50%; margin-top:25px">
-                        </div>
-                        
-                      </div>
-                    </div>
-                    
-                    <div class="row" style="margin-left:60px;padding-bottom:15px;">
-                      <div class="col-md-12" >
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/sigma.jpg" style="width:50%; heigth:50%;margin-top:20px">
-                        </div>
-
-                                <div class="col-md-3">
-                          <img src="../webroot/logosrodape/Logo_PROEX.jpg" style="width:40%; heigth:40%;margin-top: 10px">
-                        </div>
-
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/marchesan.jpg" style="width:30%; heigth:30%;margin-top: 15px">
-                        </div>
-
-                        <div class="col-md-3">
-                          <img src="../webroot/logosrodape/sicoob.png" style="width:60%; heigth:60%;margin-top: 20px">
-                        </div>
-                      </div> 
-
-                    </div>
-                 
-              </div>
-
-            </div><!--row-->
-
-          </div>
+               
 
         </body>
         </html>
