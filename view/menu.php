@@ -28,7 +28,7 @@
 
     #rodape{
 
-      background-color: #f9f9f9;
+      background-color: #A8C660;
       min-height: 150px;
       font-weight: bold;
     }
