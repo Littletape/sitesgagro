@@ -45,6 +45,7 @@
 			</div>
 			</div>
 		</div>
+    <?php require_once('rodape2017.php') ?> 
 	</div>
 </body>
 </html>

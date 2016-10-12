@@ -70,6 +70,7 @@
 			</div>
 		</div>
 		<!-- fim da row 1 -->
+		<?php require_once('rodape2017.php') ?> 
 	</div>
 	<!-- fim do container -->
 </body>

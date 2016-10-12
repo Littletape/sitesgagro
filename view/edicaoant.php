@@ -103,10 +103,12 @@
           		</form>
                </div>
      	</div>
-
-    </div>
+          
     <br><br><br>
+    <hr></hr>
     <?php require_once('rodape2016.php') ?>
+    </div>
+
 
     <script type="text/javascript">
           $(document).ready(function(){ 

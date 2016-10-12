@@ -11,10 +11,11 @@
   <style type="text/css">
     body{
       margin-top:30px;
+      margin-bottom: 30px;
       background-image: url('../webroot/images/natureza.jpg');
       border-radius: 100px;
     }
-    .container{background-color: white;}
+    .container{background-color: white; min-height: 700px;    box-shadow: -0px -0px 200px #999;}
     .navbar-default{
       background-color: transparent;
       border: none;
@@ -23,6 +24,14 @@
     .active{color: white; text-decoration:none; background-color: rgb(50,180,74);}
     a{font-weight: bolder; color: black;}
     .div{background-color: #fff }
+
+    #rodape{
+
+      background-color: #f9f9f9;
+      min-height: 150px;
+      font-weight: bold;
+    }
+
 
   </style>
 </head>

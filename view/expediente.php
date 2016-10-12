@@ -85,7 +85,9 @@
 <tr><td class="bold ">Via de Acesso:</td><td class="align-left"> Prof. Paulo Donato Castellane, S/N, Vila Industrial, Jaboticabal-SP. CEP: 14.884-900.</td></tr>
 
 </table>
+<?php require_once('rodape2017.php') ?> 
 </div>
+
 
 <style>
 	th{background-color: #337AB7; color:#fff;}

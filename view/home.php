@@ -84,17 +84,10 @@ $escreve =fwrite($abre, $ss);
 
                 </div>
 
+                <?php require_once('rodape2017.php') ?>       
 
 
-                
-
-
-               <!-- <div class="col-md-12 col-xs-12"> -->
-
-               <!--  <div id="fb-root"></div> -->
                
-
-               <!-- </div> -->
 
                
 

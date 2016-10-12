@@ -36,6 +36,7 @@
 			</div>
 		</div>
 		<!-- fim da row 2 -->
+		<?php require_once('rodape2017.php') ?> 
 	</div>
 	<!-- fim do container -->
 </body>

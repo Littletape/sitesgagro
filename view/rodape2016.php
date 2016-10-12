@@ -1,4 +1,4 @@
-<div class="col-md-12 col-xs-12" style="background-color: #fff">
+<div class="col-md-12 col-xs-12" style="background-color: #fff;border: solid #ccc 2px;border-radius: 10px">
               
                     <div class="row" style="margin-left:60px">
                       <div class="col-md-12" >
@@ -45,5 +45,6 @@
               </div>
 
             </div><!--row-->
+            
 
           </div>
