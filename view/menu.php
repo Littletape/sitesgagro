@@ -16,7 +16,7 @@
       background-attachment:fixed;
       border-radius: 100px;
     }
-    .container{background-color: white; min-height: 700px;    box-shadow: -0px -0px 200px #999;}
+    .container{background-color: white; min-height: 700px;}
     .navbar-default{
       background-color: transparent;
       border: none;
