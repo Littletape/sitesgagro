@@ -25,6 +25,17 @@
      	<!--center><h1>2016</h1></center-->
           <?php include_once("menu.php"); ?>
      	<br>
+          <!--Select edição-->
+                    <div class="row">
+                         <div class="col-md-12">
+                              <label>Selecione a edição:</label>
+                              <select id="selEdicao" class="form-control">
+                                   <option>Edição Completa - 2016</option>
+                              </select>
+                         </div>
+                    </div><br>
+          <!--Select edição-->
+          <center><h4 id=nEdicao>Edição de </h4></center>
      
      	<div class="col-md-8 col-md-offset-2">
                <center><b>Pesquise aqui por nome do autor, cooautor, titulo, ou palavras chave</b></center><br>
@@ -44,16 +55,7 @@
                     <center><b>Aqui é possivel ver todos os artigos deste ano organizados por edição, categoria e área. Basta selecionalos e clicar em Buscar</b></center><br>
           		<form>
           		
-          		<!--TIRAR OU NÃO-->
-          		<div class="row">
-          			<div class="col-md-12">
-          				<label>Selecione a edição:</label>
-          				<select class="form-control">
-          					<option>Edição Completa - 2015.</option>
-          				</select>
-          			</div>
-          		</div><br>
-          		<!--TIRAR OU NÃO-->
+          		
 
           		<div class="row">
           			<div class="col-md-12">
@@ -103,6 +105,8 @@
      	</div>
 
     </div>
+    <br><br><br>
+    <?php require_once('rodape2016.php') ?>
 
     <script type="text/javascript">
           $(document).ready(function(){ 
@@ -319,3 +323,13 @@
      });
 </script>
 
+
+<script type="text/javascript">
+     $(document).ready(function(){
+          var edicao = $('#selEdicao option:selected').val();
+         
+          var edicao = edicao.replace(/[^0-9]/g,'');
+          var nEdicao = parseInt(edicao);
+          $('#nEdicao').append(nEdicao);
+     });
+</script>
