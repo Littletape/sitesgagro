@@ -21,29 +21,29 @@
 								<p>
 								<thead>
 									<th>Participante</th>
-									<th>Inscrições até 16/05 Com desconto</th>
-									<th>Inscrições até 30/05 Sem desconto</th>
+									<th>Inscrições até 10/05 Com desconto</th>
+									<th>De 11/05 até 30/05/ Sem desconto</th>
 								</thead>
 								<tbody>
 									<tr>
 										<td>Acadêmico</td>
-										<td>R$ 250,00</td>
-										<td>R$ 300,00</td>
+										<td>R$ 275,00</td>
+										<td>R$ 330,00</td>
 									</tr>
 									<tr>
 										<td>Avaliador</td>
-										<td>R$ 150,00</td>
-										<td>R$ 180,00</td>
+										<td>R$ 165,00</td>
+										<td>R$ 198,00</td>
 									</tr>
 									<tr>
 										<td>Estudante</td>
-										<td>R$ 80,00</td>
-										<td>R$ 96,00</td>
+										<td>R$ 85,00</td>
+										<td>R$ 102,00</td>
 									</tr>
 									<tr>
 										<td>Profissionais</td>
-										<td>R$ 100,00</td>
-										<td>R$ 120,00</td>
+										<td>R$ 110,00</td>
+										<td>R$ 132,00</td>
 									</tr>											
 								</tbody>
 								</p>
