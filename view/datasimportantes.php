@@ -34,12 +34,12 @@
 						</tr>
 						<tr>
 
-							<td	>11/05/2016</td>
+							<td	>11/05/2017</td>
 							<td	>Início das inscrições sem desconto</td>
 						</tr>
 						<tr>
 
-							<td	>30/05/2016</td>
+							<td	>30/05/2017</td>
 							<td	>Início das inscrições sem desconto</td>
 						</tr>
 						<tr>
