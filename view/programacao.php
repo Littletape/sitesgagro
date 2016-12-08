@@ -16,16 +16,22 @@
 			<tr><td>17:00</td></tr>
 			<tr><td>18:00</td></tr>
 			<tr><td rowspan="4">19:00 às 22:30</td><td rowspan="4">Palestra 1 <!--Me. Marco Antônio Matos – Diretor da ABAG--> <br><br>Palestra 2 <!--Prof. Ph.D. Marcus V. Braga Alves-->
-			</td><td rowspan="4">Oficinas Tematicas</td><td rowspan="4">Oficinas Tematicas<br><br><br>Encerramento</td></tr>
+			</td><td rowspan="4">Oficinas Tematicas</td><td rowspan="4">Oficinas Tematicas<br><br>Encerramento</td></tr>
 		</tbody>
-	</table><br>
+	</table>
 
-	<p><b>Oficinas Tematicas Confirmadas:</b></p><br>
-	<p><b>Oficina 1: Sustentabilidade na Agricultura</b></p>
-	<p>Profa. Dra. Maria Tereza Noronha - Universidade do Algarve (Portugal)</p><br>
-	<p><b>Oficina 2: Sustentabilidade na Integração Lavoura Pecuária</b></p>
-	<p>Dra. Flavio Fernanda Simili - Agência Paulista de Tecnologia dos Agronegócios (Brasil)</p><br>
-
+	<table class="table table-bordered table-condensed">
+		<tr>
+			<td class="col-md-12 col-xs-12">
+			<h4><b>Oficinas Tematicas Confirmadas:</b></h4>
+			<p><b>Oficina 1: Sustentabilidade na Agricultura</b></p>
+			<p>Profa. Dra. Maria Tereza Noronha - Universidade do Algarve (Portugal)</p><br>
+			<p><b>Oficina 2: Sustentabilidade na Integração Lavoura Pecuária</b></p>
+			<p>Dra. Flavio Fernanda Simili - Agência Paulista de Tecnologia dos Agronegócios (Brasil)</p>
+			</td>
+		</tr>
+	</table>
+	
 </div>
 
 
