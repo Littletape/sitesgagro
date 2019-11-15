@@ -1,7 +1,17 @@
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-91044140-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
 <?php
-	/*require_once ("../../sistema/config/conexao.php");
-	require_once ("../../sistema/config/funcoesmysql.php"); */?>
+     //require_once ("../config/conexao.php");
+     require_once ("../config/conexaoant.php");
+     require_once ("../config/funcoesmysql.php");?>
 	
      <style type="text/css">
                #dadosTrab{
@@ -19,23 +29,27 @@
                     color: white;
                     border: 1px solid rgb(168, 198, 96);
                }
+               .row{background-color: white}
+               .col-md-12{background-color: white}
      </style>
+     <meta charset="utf-8">
 
      <div class="container">
      	<!--center><h1>2016</h1></center-->
           <?php include_once("menu.php"); ?>
+
      	<br>
           <!--Select edição-->
-                    <div class="row">
+                   <!--  <div class="row">
                          <div class="col-md-12">
                               <label>Selecione a edição:</label>
                               <select id="selEdicao" class="form-control">
                                    <option>Edição Completa - 2016</option>
                               </select>
                          </div>
-                    </div><br>
+                    </div><br> -->
           <!--Select edição-->
-          <center><h4 id=nEdicao>Edição de </h4></center>
+          <center><h4 id=nEdicao>Edição de 2016 </h4></center>
      
      	<div class="col-md-8 col-md-offset-2">
                <center><b>Pesquise aqui por nome do autor, cooautor, titulo, ou palavras chave</b></center><br>
@@ -60,17 +74,12 @@
           		<div class="row">
           			<div class="col-md-12">
           				<label>Selecione a categoria:</label>
-          				<?php
-
-                                   /*$categoria = select("*","tb_categoria","id_evento ='1'");*/
-
-                                   echo '<select class="form-control" id="selectCat">';
-                                   echo '<option> Todas </option>';
-                                        foreach ($categoria as $key => $value) {
-                                             echo '<option>'.$value['descricao'].'</option>';
-                                        }
-                                   echo "<select>";
-                              ?>
+          				<select class="form-control" id="selectCat">
+                                   <option>Todas</option>
+                                   <option>Artigo Completo</option>
+                                   <option>Relato Técnico</option>
+                                   <option>Resumo Expandido</option>
+                              </select>
           			</div>
           		</div><br>
 
@@ -78,19 +87,17 @@
           			<div class="col-md-12">
           				<label>Selecione a Área:</label>
                               
-                              <!-- Seleciona as areas cadastradas na tabela tb_areas e exibe como option -->
-                              <?php
-
-                                   /*$area = select("*","tb_areas","id_evento ='1'");*/
-
-                                   echo '<select class="form-control" id="selectArea">';
-                                   echo '<option> Todas </option>';
-                                        foreach ($area as $key => $value) {
-                                             echo '<option>'.$value['nome'].'</option>';
-                                        }
-                                   echo "<select>";
-                              ?>
-
+                             <select class="form-control" id="selectArea">
+                                   <option>Todas</option>
+                                   <option>Desenvolvimento e Gestão</option>
+                                   <option>Economia e Finanças</option>
+                                   <option>Empreendedorismo, Inovação e Tecnologia</option>
+                                   <option>Estratégia, Planejamento e Governança</option>
+                                   <option>Gestão de Pessoas e Estudos Organizacionais</option>
+                                   <option>Marketing e Mercados</option>
+                                   <option>Logísticas e Operações</option>
+                                   <option>Sustentabilidade e Responsabilidade Sócio Ambiental</option>
+                              </select>
           			</div>
           		</div><br>
 
@@ -98,15 +105,17 @@
           			<button type="button" id="buscaForm" class= "btn btn-success col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
           				Buscar
           			</button>
+
           			
           		</div>
           		</form>
+                    <center><h4>ISSN 2525-3603</h4></center>
                </div>
      	</div>
           
     <br><br><br>
     <hr></hr>
-    <?php require_once('rodape2016.php') ?>
+    <?php require_once('rodape2016.php'); ?>
     </div>
 
 
@@ -122,7 +131,7 @@
                               }                    
                          $.ajax({
                            type: "POST",
-                           url: "buscaTrabalhos.php",
+                           url: "../controller/buscaTrabalhos.php",
                            data: env,
                            dataType : 'json',
                            success: function(data){
@@ -202,7 +211,7 @@
                         console.log(env);                  
                     $.ajax({
                       type: "POST",
-                      url: "buscaTrabalhos.php",
+                      url: "../controller/buscaTrabalhos.php",
                       data: env,
                       dataType : 'json',
                       success: function(data){
@@ -284,7 +293,7 @@
                                    ' <option>Todas</option>'+
                                    '<option>Artigo Completo</option>'+
                                    '<option>Relato Técnico</option>'+
-                                   '<option>Resumo Expandido.</option>'+
+                                   '<option>Resumo Expandido</option>'+
                               '</select>'+
                          '</div>'+
                     '</div><br>'+
@@ -311,7 +320,8 @@
                          '</button>'+
                          
                     '</div>'+
-                    '</form>';
+                    '</form>'+
+                    '<center><h4>ISSN 2525-3603</h4></center>';
           $('#formularioBuca').append(linha);          
 
      });
@@ -326,7 +336,7 @@
 </script>
 
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
      $(document).ready(function(){
           var edicao = $('#selEdicao option:selected').val();
          
@@ -334,4 +344,4 @@
           var nEdicao = parseInt(edicao);
           $('#nEdicao').append(nEdicao);
      });
-</script>
+</script> -->

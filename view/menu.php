@@ -2,8 +2,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sistema especialista em Simpósios">
-  <meta name="keywords" content="sgagro, Agronegócios,Faculdade de Ciências Agrárias e Veterinárias, Universidade Estadual Paulista (FCAV/UNESP), FCAV,UNESP,Gestão do Agronegócio,Simpósio em Gestão do Agronegócio, Simpósio, UNESP: Câmpus de Jaboticabal, jaboticabal">
+  <meta name="description" content="Simpósio de Gestão do Agronegócio">
+  <meta name="keywords" content="SGAgro, Agronegócios, Faculdade de Ciências Agrárias e Veterinárias, Universidade Estadual Paulista (FCAV/UNESP), FCAV, UNESP, Gestão do Agronegócio,Simpósio em Gestão do Agronegócio, Simpósio, UNESP: Câmpus de Jaboticabal, Jaboticabal, Trabalhos em PDF, Artigos">
+  <link rel="shortcut icon" href="../webroot/images/SGAGRO_LOGO.ico" type="image/x-icon"/>
   <link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../webroot/js/bootstrap.min.js"></script>
@@ -12,15 +13,20 @@
     body{
       margin-top:30px;
       margin-bottom: 30px;
-      background-image: url('../webroot/images/natureza.jpg');
-      background-attachment:fixed;
+      background-image: url('../webroot/images/backgroundSgagro.jpg');
+      background-size: 100%;
+      background-attachment: fixed;
       border-radius: 100px;
+      
     }
-    .container{background-color: white; min-height: 700px;}
+    /*.container{background-color: white; min-height: 700px;}*/
     .navbar-default{
-      background-color: transparent;
+      /*background-color: transparent;*/
       border: none;
       margin-bottom: 60px;
+      font-size:11px;
+      padding-bottom: 10px;
+
     }
     .active{color: white; text-decoration:none; background-color: rgb(50,180,74);}
     a{font-weight: bolder; color: black;}
@@ -32,21 +38,24 @@
       min-height: 150px;
       font-weight: bold;
     }
+    table{background-color: white}
 
 
   </style>
 </head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-91044140-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div class="row">
 <nav class="navbar navbar-default">
-  <!--div class="row">
-      <div class="col-md-2 col-xs-2">
-          <img src="../webroot/images/logo.png" style="height: 50%">
-      </div>
-
-      <div class="col-md-8 col-xs-10">
-          <center><h1 style="color: rgb(50,180,74)">II simposio em gestão do agronegocio</h1></center>
-      </div>
-    </div-->
+  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-brand">
       <a href="home.php">
@@ -65,8 +74,10 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li id="home" class="nav-item"><a class="nav-link" href="home.php?id=home">HOME</a></li>
+        <li id="sobre" class="nav-item"><a class="nav-link" href="sobre.php?id=sobre">SOBRE</a></li>
+        <li id="datas" class="nav-item"><a class="nav-link" href="datasimportantes.php?id=evento">DATAS IMPORTANTES</a></li>
         <li id="submissao" class="nav-item"><a class="nav-link" href="submissao.php?id=submissao">SUBMISSÃO</a></li>
-        <li id="resultado" class="nav-item"><a class="nav-link" href="resultado.php?id=resultado" >RESULTADOS</a></li>
+        <li id="resultado" class="nav-item"><a class="nav-link" href="http://sistema.sgagro.org/resultado/evento" target="_blank" >RESULTADOS</a></li>
         
 
         <li class="dropdown" id="evento">
@@ -74,9 +85,10 @@
             EVENTO <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
               <li id="apresentacao" class="nav-item"><a class="nav-link" href="apresentacao.php?id=evento">APRESENTAÇÃO</a></li>
-              <li id="datas" class="nav-item"><a class="nav-link" href="datasimportantes.php?id=evento">DATAS IMPORTANTES</a></li>
               <li id="programacao" class="nav-item"><a class="nav-link" href="programacao.php?id=evento">PROGRAMAÇÃO</a></li>
-              <li id="expediente" class="nav-item"><a class="nav-link" href="expediente.php?id=evento">EXPEDIENTE</a></li>
+              <!-- <li id="expediente" class="nav-item"><a class="nav-link" href="expediente.php?id=evento">EXPEDIENTE</a></li> -->
+              <li id="expediente" class="nav-item"><a class="nav-link" href="expediente.php?id=evento">ÁREAS TEMÁTICAS</a></li>
+              <li id="comissao" class="nav-item"><a class="nav-link" href="comissao.php?id=evento">COMISSÃO</a></li>
             </ul>
           </a>
         </li>
@@ -85,20 +97,22 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             EDIÇÕES <span class="glyphicon glyphicon-menu-down"></span>
             <ul class="dropdown-menu">
-              <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO ATUAL</a></li>
-              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO ANTERIORES</a></li> 
+              <li class="nav-item"><a class="nav-link" href="edit2019.php">EDIÇÃO 2019</a></li>
+              <li class="nav-item"><a class="nav-link" href="edit2018.php">EDIÇÃO 2018</a></li>
+              <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO 2017</a></li>
+              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li> 
             </ul>
           </a>
         </li>
 
         <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
         <li id="contato" class="nav-item"><a class="nav-link" href="contato.php?id=contato">CONTATO</a></li>
-        <li id=" login" class="nav-item"><a class="nav-link" href="../sistema/submissao/index.php?id=login" target="blank">LOGIN</a></li>
+        <li id=" login" class="nav-item"><a class="nav-link" HREF="http://sistema.sgagro.org" TARGET="_blank">LOGIN</a></li>
 
       </ul>
     </div>
   </nav>
-
+ </div>
   <script type="text/javascript">
   $(document).ready(function(){
     var status = "<?php echo $_GET['id']; ?>";
@@ -108,3 +122,5 @@
 
   });
 </script>
+
+<body>

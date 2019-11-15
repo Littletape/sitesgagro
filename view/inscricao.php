@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-91044140-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
 <body>
 <!-- inicio da row 1 -->
 	<div class="container">
@@ -11,39 +20,50 @@
 				
 					<div class="row">
 						<div class="col-md-12">
-							<p style="font-size: 18px"><a href="http://www.funep.org.br/mostrar_evento.php?idevento=549"><button class="btn btn-success" type="button" id="inscricao"><b>Clique aqui para realizar a sua inscrição</b></button></a></p><br>
+							<!-- <p style="font-size: 18px"><a href="https://eventos.funep.org.br/Eventos/Detalhes#/exibir/4357" target="_blank"><button class="btn btn-success" type="button" id="inscricao"><b>Clique aqui para realizar a sua inscrição</b></button></a></p> -->
+							<br>
+							<p class="alert alert-success">As incrições serão abertas a partir do dia 11/03/2020 </p>
 						</div>
 					</div>
+
+<!-- 4. Esse ano vamos alterar os valores das inscrições. 
+Acadêmico: Com desconto R$ 295,00 Sem desconto R$ 345,00 
+Avaliador: Com desconto R$ 190,00 Sem desconto R$ 240,00
+Estudante: Com desconto R$ 95,00 Sem desconto R$ 145,00
+Profissionais*: Com desconto R$ 130,00 Sem desconto R$ 180,00
+
+Obs.: coloquei um " * " em Profissionais só para atentar a quem se enquadra nesse tipo de inscrição. Podemos colocar uma legenda embaixo para especificar o que significa? 
+*: Profissionais de mercado interessados em participar do evento sem trabalhos submetidos. --> 
 					<!-- incio da row da tabela  -->
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" style="background-color: white">
 							<table class="table table-striped table-hover">
 								<p>
 								<thead>
 									<th>Participante</th>
-									<th>Inscrições até 10/05 Com desconto</th>
-									<th>De 11/05 até 30/05/ Sem desconto</th>
+									<th>Inscrições de 11/03/2020 até 11/05/2020 Com desconto</th>
+									<th>De 12/05/2020 até 02/06/2020 Sem desconto</th>
 								</thead>
 								<tbody>
 									<tr>
 										<td>Acadêmico</td>
-										<td>R$ 275,00</td>
-										<td>R$ 330,00</td>
+										<td>R$ 295,00</td>
+										<td>R$ 345,00</td>
 									</tr>
 									<tr>
 										<td>Avaliador</td>
-										<td>R$ 165,00</td>
-										<td>R$ 198,00</td>
+										<td>R$ 190,00</td>
+										<td>R$ 240,00</td>
 									</tr>
 									<tr>
 										<td>Estudante</td>
-										<td>R$ 85,00</td>
-										<td>R$ 102,00</td>
+										<td>R$ 95,00</td>
+										<td>R$ 145,00</td>
 									</tr>
 									<tr>
-										<td>Profissionais</td>
-										<td>R$ 110,00</td>
-										<td>R$ 132,00</td>
+										<td>*Profissionais</td>
+										<td>R$ 130,00 </td>
+										<td>R$ 180,00</td>
 									</tr>											
 								</tbody>
 								</p>
@@ -58,19 +78,29 @@
 					<div class="col-md-12">
 						<div class="alert alert-danger">
 							<p> <b>Acadêmicos:</b> docentes, pesquisadores e alunos de programa de pós graduação com trabalhos aceitos para publicação. </p>
-							<p> <b>Avaliador:</b> docentes e pesquisadores cadastrados como avaliadores do evento.<//p 
+							<p> <b>Avaliador:</b> docentes e pesquisadores cadastrados como avaliadores do evento.</p> 
 							<p> <b>Estudante:</b> alunos de instituições de ensino superior nos níveis de graduação e tecnológico.</p>
-							<p> <b>Profissionais:</b> empresários, empreendedores, funcionários de empresas privadas, públicas ou demais organizações e profissionais liberais que tenham interesse em participar como ouvintes do evento. </p>
+							<p> <b>*Profissionais:</b>  Profissionais de mercado interessados em participar do evento sem trabalhos submetidos </p>
 						</div>
 					</div>
+					
+					<div class="col-md-12">
+						<div class="alert alert-info">
+							<p>O SGAgro é um evento sem finalidade econômica, cujo compromisso é proporcionar aos palestrantes um evento técnico-científico com qualidade e com o menor  investimento possível.</p>
+							<p>Considerando os principais eventos científicos similares na Área de Administração, as inscrições do SGAgro são as mais baixas para todos os públicos</p>
+							<p>O SGAgro agradece as empresas, instituições e agências de fomento que nos apoiam e a confiança de todos os participantes em nosso projeto!</p>
+
+						</div>
+					</div>	
+					
 				</div>	
 				<!-- fim da nota de esclarecimento  -->
 					
-			
+			<?php require_once('rodape2019.php'); ?>
 			</div>
 		</div>
 		<!-- fim da row 1 -->
-		<?php require_once('rodape2017.php') ?> 
+		
 	</div>
 	<!-- fim do container -->
 </body>

@@ -3,29 +3,35 @@
 <style type="text/css">
 	.panel-success>.panel-heading{background-color: #A8C660; }
 </style>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-91044140-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
 <body>
 	<div class="container">
 	<?php include_once("menu.php"); ?>
 		<div class="row">
 			<div class="col-md-12">
 
-				<div class="panel panel-success">
+        <div class="alert alert-success">
+          <center><h3>Os resultados serão divulgados dia 09/04/2018</h3></center>
+        </div>
+
+				<!--div class="panel panel-success">
 				<div class="panel-heading" style=" background-color: #337AB7; color:#fff; font-weight: bold;"><center>Trabalho aprovados</center></div>
 				
 				<div class="panel-body"  id="tabAva" style="height:620px;overflow:auto">
-
-					<div class="input-group">
-						<input id="nomeAvaliador" name="titulo" type="text" class="form-control" placeholder="Informe o nome de um dos autores pra filtrar os resultados">
-						<span class="input-group-btn">
-							<button class="btn btn-primary glyphicon glyphicon-filter" id="buscaAvaliador" type="button"></button>
-						</span>
-		            </div></br>
 
 					<div style="overflow: auto">
 		    			<table class="tabela1 table table-hover">
 			    			<tr>
 			    				<th> Titulo </th>
-			    				<th> Nome </th>
 			    				<th> Area </th>
 			    				<th> Categoria </th>
 			    				<th> Autor 1 </th>
@@ -42,15 +48,15 @@
 		    		
 				</div>
 			
-			</div>
+			</div-->
 			</div>
 		</div>
-    <?php require_once('rodape2017.php') ?> 
+    <?php require_once('rodape2018.php') ?> 
 	</div>
 </body>
 </html>
 
- <script type="text/javascript">
+ <!--script type="text/javascript">
     $(document).ready(function(){
       var env = {};
       $.ajax({
@@ -114,4 +120,4 @@
                   }
         });
     });
-  </script>
+  </script-->
