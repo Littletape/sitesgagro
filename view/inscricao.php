@@ -13,9 +13,9 @@
 </script>
 <body>
 <!-- inicio da row 1 -->
-	<div class="container">
+	<div class="container-fluid">
 	<?php include_once("menu.php"); ?>
-		<div class="row">
+		<div class="row firstRow">
 			<div class="col-md-12">
 				
 					<div class="row">
@@ -36,7 +36,7 @@ Obs.: coloquei um " * " em Profissionais só para atentar a quem se enquadra nes
 *: Profissionais de mercado interessados em participar do evento sem trabalhos submetidos. --> 
 					<!-- incio da row da tabela  -->
 					<div class="row">
-						<div class="col-md-12" style="background-color: white">
+						<div class="col-md-12" >
 							<table class="table table-striped table-hover">
 								<p>
 								<thead>
@@ -102,7 +102,7 @@ Obs.: coloquei um " * " em Profissionais só para atentar a quem se enquadra nes
 		<!-- fim da row 1 -->
 		
 	</div>
-	<!-- fim do container -->
+	<!-- fim do container-fluid -->
 </body>
 </html>
 

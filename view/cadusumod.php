@@ -22,7 +22,7 @@
 
 </script>
 <body>
-<div class="container">
+<div class="container-fluid">
 
     <!--Banner-->
     <div class="jumbotron" style="background-image: url('../images/fundo.png'); background-size: cover;">

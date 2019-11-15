@@ -12,7 +12,7 @@
 
     </style>
     
-    <div class="container-fluid">
+    <div class="container-fluid-fluid">
     <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
               <a class="navbar-brand" href="#" style="font-size:28px;color:white">SGAgro</a>
@@ -33,7 +33,7 @@
         </div>
 
 		<!--nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+          <div class="container-fluid-fluid">
             <div class="navbar-header">
               <a class="navbar-brand" href="#" style="font-size:28px;color:white">SGAgro</a>
             </div>

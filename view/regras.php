@@ -10,7 +10,7 @@ if(isset($_SESSION['logado']) == false)
     <script src="../js/jquery-2.1.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../images/SGAGRO LOGO.ico" type="image/x-icon"/>
-	<div class="container">
+	<div class="container-fluid">
 
 	    <!--Banner-->
 	    <div class="jumbotron" style="background-image: url("../images/fundo.png"); background-size: cover;">
@@ -60,7 +60,7 @@ exit;
 
 </script>
 <body>
-<div class="container">
+<div class="container-fluid">
 	
 	<!--Banner-->
     <div class="jumbotron" style="background-image: url('../images/fundo.png'); background-size: cover;">

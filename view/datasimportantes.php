@@ -9,11 +9,11 @@
 
 </script>
 
-<div class="container">
+<div class="container-fluid">
 	<?php include_once("menu.php"); ?>
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color: white;">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 firstRow">
 		<table class="table table-hover table-striped">	
-			<thead>	
+			<thead >	
 				<th>Data</th>
 				<th>Atividade</th>
 			</thead>
@@ -77,8 +77,6 @@
 <?php require_once('rodape2019.php'); ?>
 
 <style>
-	table{margin-top: 50px;}
-	th{background-color: #337AB7; color:#fff;}
 	th{text-align: center}
 	.footerTable{background-color: #337AB7; color:#fff;}
 	.table>tbody>tr>td{text-align: left; padding-left: 150px}

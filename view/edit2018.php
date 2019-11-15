@@ -24,11 +24,11 @@
 	/* fim heights diferentes */
 </style>
 
-<div class="container">
+<div class="container-fluid">
 	
 <?php include_once("menu.php"); ?>
 
-<div class="row text-center text"><h3><b>Anais do Sgagro edição de 2018</b></h3></div><br>
+<div class="row text-center text firstRow" style="color: black; background-color: white; margin-left: 30px; margin-right: 30px"><h2><b>Anais do Sgagro edição de 2018</b></h2></div><br>
 
 <!--div class="alert alert-success"><center><h3>Os trabalhos serão publicados posteriormente a realização do evento</h3></center></div-->
 

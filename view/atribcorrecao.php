@@ -28,7 +28,7 @@
 </script>
 	
     
-<div class="container-fluid">
+<div class="container-fluid-fluid">
 	<?php require_once("menuadm.php") ?>
     
    

@@ -3,13 +3,17 @@
 <style type="text/css">
 	.borda{ border: solid black 2px; }
 	.list-group>.list-group-item{padding: 12.8px;}
+	.alert-success{
+		background-color: #ffffff;
+
+	}
 </style>
 <body> 
 
-	<div class="container">
+	<div class="container-fluid">
 		<?php include_once("menu.php"); ?>
 		<!-- inicio da primeira row -->
-		<div class="row ">
+		<div class="row firstRow ">
 			<div class="col-md-6 ">
 
 				<div class="row">
@@ -47,21 +51,21 @@
 
 				</div>
 				<div class="col-md-6 ">
-					<div class="alert alert-success">
+					<div class="alert alert-success" style="background-color: #ffffff;">
 			    		<center><p><b>Clique no botão abaixo para ver os resultados do Fast Track 2019:</b><br><a href="../template/Fast_Track_2019.pdf" target="_blanck" class="btn btn-primary">Resultado do Fast Track 2019</a></p></center>
 			    	</div>
 
-					<div class="alert alert-success">
+					<div class="alert alert-success" style="background-color: #ffffff;">
 			    		<center><p><b>Clique no botão abaixo para ver os resultados do Fast Track 2018:</b><br><a href="../template/Fast_Track_2018.pdf" target="_blanck" class="btn btn-primary">Resultado do Fast Track 2018</a></p></center>
 			    	</div>
 
-					<div class="alert alert-success">
+					<div class="alert alert-success" style="background-color: #ffffff;">
 			    		<center><p><b>Clique no botão abaixo para ver os resultados do Fast Track 2017:</b><br><a href="../template/fast_track_2017.pdf" target="_blanck" class="btn btn-primary">Resultado do Fast Track 2017</a></p></center>
 			    	</div>
 
 					<div class="text">
 						<ul class="list-group">
-							<li class="list-group-item active">As opções de fast track são:</li>
+							<li class="list-group-item active" style="background-color: #b5cf79; border-color:#b5cf79; color: black; font-weight: bold ">As opções de fast track são:</li>
 							<li class="list-group-item"><a href="#">Contabilidade, Gestão e Governança</a></li>
 							<li class="list-group-item"><a href="#">Custos e @gronegócio On line</a></li>
 							<li class="list-group-item"><a href="#">Revista de Gestão do Agronegócio: Agropampa</a></li>
@@ -94,7 +98,7 @@
 
 			<?php require_once('rodape2019.php'); ?>
 		</div>
-		<!-- fim do container -->
+		<!-- fim do container-fluid -->
 
 
 

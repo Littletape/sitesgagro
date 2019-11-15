@@ -12,9 +12,9 @@
 </script>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
 	<?php include_once("menu.php"); ?>
-		<div class="row">
+		<div class="row firstRow">
 			<div class="col-md-12">
 				<div class="well well-lg">
 					<h3>Dicas para a apresentação do artigo e do relato técnico</h3>
@@ -75,6 +75,6 @@
 		<!-- fim da row 2 -->
 		<?php require_once('rodape2019.php'); ?> 
 	</div>
-	<!-- fim do container -->
+	<!-- fim do container-fluid -->
 </body>
 </html>

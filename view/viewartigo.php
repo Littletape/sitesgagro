@@ -9,7 +9,7 @@ if(isset($_SESSION['logado']) == false)
     <link type="text/css" rel="stylesheet" href="../css/style.css" ></link>
     <script src="../js/jquery-2.1.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-	<div class="container">
+	<div class="container-fluid">
     <!--Banner-->
     <div class="jumbotron" style="background: url("../images/SGAGRO LOGO.png");">
         <div class="row">
@@ -69,7 +69,7 @@ exit;
 
 </script>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<!--Banner-->
 	    <div class="jumbotron" style="background-image: url('../images/fundo.png'); background-size: cover;">
 	        <div class="row" style="margin-left: -6.5%; margin-right: 6.5%">

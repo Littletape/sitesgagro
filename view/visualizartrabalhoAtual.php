@@ -131,7 +131,7 @@
 			
 		</div>
 
-	</div><!-- fecha container-->
+	</div><!-- fecha container-fluid-->
 
 </body>
 </html>

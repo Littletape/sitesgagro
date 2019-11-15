@@ -1,6 +1,6 @@
 <body>
 
-<div class="container">
+<div class="container-fluid">
 	<?php include_once("menu.php"); ?>
 	
 	<!--
@@ -16,7 +16,7 @@
 		}
 	</style>
 
-	<div class="alert alert-info text-center"> <h2>A nova programação será divulgada em breve</h2></div>
+	<div class="alert alert-info text-center firstRow"> <h2>A nova programação será divulgada em breve</h2></div>
 
 	
 	<!-- <table class=" table table-bordered table-condensed" style="background-color: white; text-align: center;">

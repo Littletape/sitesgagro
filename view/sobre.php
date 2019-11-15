@@ -1,12 +1,12 @@
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
 
     <?php include_once("menu.php"); ?>
 
-    <div class="row">
+    <div class="row firstRow">
 
-      <div class="col-md-8 col-xs-12" style="background-color: white">
+      <div class=" col-md-offset-1 col col-md-10 col-xs-12" style="background-color: white; padding: 15px">
 
 
        <!--  <div class="alert alert-info text text-center" style="padding: 0px;margin-top: 30px">

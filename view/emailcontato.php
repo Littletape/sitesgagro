@@ -85,7 +85,7 @@ try {
        <link rel='shortcut icon' href='../sistema/submissao/images/SGAGRO LOGO.ico' type='../image/x-icon'/>
     </head>
     <body>
-       <div class='container'>
+       <div class='container-fluid'>
 
         <div class='jumbotron' style='background-image: url(../images/fundo.png); background-size: cover;'>
             <div class='row' style='margin-left: -6.5%; margin-right: 6.5%'>

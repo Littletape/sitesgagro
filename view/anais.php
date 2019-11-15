@@ -34,7 +34,7 @@
      </style>
      <meta charset="utf-8">
 
-     <div class="container">
+     <div class="container-fluid">
      	<!--center><h1>2016</h1></center-->
           <?php include_once("menu.php"); ?>
 

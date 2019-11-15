@@ -25,8 +25,8 @@
 </script>
 <body>
 	<div class="col-md-12" style="position: fixed; z-index: 9999;"><?php include("menuadm.php"); ?></div><br><br><br>
-	<div class="container-fluid">
-		<div class="container-fluid">
+	<div class="container-fluid-fluid">
+		<div class="container-fluid-fluid">
 			<div class="jumbotron" style="overflow:hidden">
 				<div class="row" id="divavaliadores">
 				<div style="background-color:white" id="legenda"><br>
@@ -59,7 +59,7 @@
 		<?php include("testeavaliadores.php"); ?>	    	
 		</div>
 		
-	</div><!--fim container-->
+	</div><!--fim container-fluid-->
 
 	<style type="text/css">
 	/*body{text-align: center;}*/

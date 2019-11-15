@@ -14,7 +14,7 @@
 
 </script>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 	<?php include_once("menu.php"); ?>
 		<div class="row">
 			<div class="col-md-12">
