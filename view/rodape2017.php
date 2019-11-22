@@ -1,4 +1,4 @@
-<div class="col-md-12 col-xs-12" style="border: solid #ccc 2px;border-radius: 10px; background-color: white; margin-top: 30px">
+<div class="row" style="border: solid #ccc 2px;border-radius: 10px; background-color: white; margin-top: 30px">
               
     <div class="row" style="margin-left:60px">
       <br>

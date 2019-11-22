@@ -1,6 +1,6 @@
-<div class="col-md-12 col-xs-12" style="border: solid #ccc 2px;border-radius: 10px; background-color: white;margin-top: 30px">
+<div class="row" style="border: solid #ccc 2px;border-radius: 10px; background-color: white;margin-top: 30px">
               
-                    <div class="row" style="margin-left:60px">
+                    <div class="col-md-12 col-xs-12" style="margin-left:60px">
                       <div class="col-md-12" >
                         <div class="col-md-3">
                           <img src="../webroot/logosrodape/unesplogo.jpg" style="width:35%; heigth:35%;">

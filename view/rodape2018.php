@@ -3,8 +3,8 @@
  		border-top: 2px solid rgba(109, 152, 4, 0.43);
  	}
  </style>
- <div class="col-md-12">
- 	<div id="rodape" class="row col-md-12 col-xs-12" style="background-color: white ;margin-bottom: 10px; margin-top: 30px">
+ <div class="row">
+ 	<div id="rodape" class="col-md-12 col-xs-12" style="background-color: white; margin-top: 30px">
  		<hr>
  		<div class="row" style="margin-bottom: 50px;text-align: center">
  			<div class="col-md-4 col-xs-12">

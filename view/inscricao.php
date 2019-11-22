@@ -20,9 +20,9 @@
 				
 					<div class="row">
 						<div class="col-md-12">
-							<!-- <p style="font-size: 18px"><a href="https://eventos.funep.org.br/Eventos/Detalhes#/exibir/4357" target="_blank"><button class="btn btn-success" type="button" id="inscricao"><b>Clique aqui para realizar a sua inscrição</b></button></a></p> -->
+							<p style="font-size: 18px"><a href="https://eventos.funep.org.br/Eventos/Detalhes#/exibir/5488" target="_blank"><button class="btn btn-success" type="button" id="inscricao"><b>Clique aqui para realizar a sua inscrição</b></button></a></p>
 							<br>
-							<p class="alert alert-success">As incrições serão abertas a partir do dia 11/03/2020 </p>
+							<!-- <p class="alert alert-success">As incrições serão abertas a partir do dia 11/03/2020 </p> -->
 						</div>
 					</div>
 

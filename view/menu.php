@@ -19,6 +19,7 @@
       background-size: 100%;
       background-attachment: fixed;
       border-radius: 100px;
+      overflow-x: hidden;
       
     }
     /*.container-fluid{background-color: white; min-height: 700px;}*/
@@ -41,6 +42,9 @@
       background-color: #A8C660;
       min-height: 150px;
       font-weight: bold;
+      margin-right: 0px;
+      padding-right: 0px;
+      width: 100%
     }
     table{background-color: white}
 
