@@ -67,13 +67,14 @@
 						<ul class="list-group">
 							<li class="list-group-item active" style="background-color: #b5cf79; border-color:#b5cf79; color: black; font-weight: bold ">As opções de fast track são:</li>
 							<li class="list-group-item"><a href="#">Contabilidade, Gestão e Governança</a></li>
-							<li class="list-group-item"><a href="#">Custos e @gronegócio On line</a></li>
-							<li class="list-group-item"><a href="#">Revista de Gestão do Agronegócio: Agropampa</a></li>
 							<li class="list-group-item"><a href="#">Revista Científica</a></li>
 							<li class="list-group-item"><a href="#">Revista Capital Cientifico</a></li>
 							<li class="list-group-item"><a href="#">Revista Verde de Agroecologia e Desenvolvimento Sustentável</a></li>
-							<li class="list-group-item"><a href="#">REAGRO - Revsita Eletrônica de Agronegócio</a></li>
 							<li class="list-group-item"><a href="#">Cuyonomics. Investigaciones en Economía Regional</a></li>
+							<li class="list-group-item"><a href="#">Desenvolve Revista de Gestão Unilasalle</a></li>
+							<li class="list-group-item"><a href="#">Caderno de Administração</a></li>
+							
+							
 						</ul>
 					</div>
 
