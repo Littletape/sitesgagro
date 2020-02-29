@@ -27,6 +27,8 @@
 			<tbody>
 				<tr><td width="50%"></td><td>Prof. Dr. David Ferreira Lopes Santos</td></tr>
 				<tr><td>Acadêmica</td><td>Andressa Alves Araújo Santos</td></tr>
+				<tr><td>Acadêmica</td><td>Letícia Orselli Monteiro</td></tr>
+				
 			</tbody>
 
 			<thead>		
@@ -61,8 +63,7 @@
 				<tr><td>Acadêmica</td><td>Larissa Colavite Garcia</td></tr>
 				<tr><td>Acadêmica</td><td>Ana Luísa Pereira</td></tr>
 				<tr><td>Acadêmico</td><td>Gabriela Mariano Rodrigues</td></tr>
-				<tr><td>Acadêmico</td><td>Ana Luisa Pereira</td></tr>
-				
+								
 			</tbody>
 		</table>
 
