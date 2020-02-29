@@ -26,9 +26,7 @@
 
 			<tbody>
 				<tr><td width="50%"></td><td>Prof. Dr. David Ferreira Lopes Santos</td></tr>
-				<!--<tr><td>Acadêmica</td><td>Bruna Luísa da Silva</td></tr>-->
 				<tr><td>Acadêmica</td><td>Andressa Alves Araújo Santos</td></tr>
-				<!-- <tr><td>Acadêmica</td><td>Natália Beltrão Ruales</td></tr> -->
 			</tbody>
 
 			<thead>		
@@ -37,11 +35,9 @@
 
 			<tbody>
 				<tr><td></td><td>Prof. Dr. Adriano dos Reis Lucente</td></tr>
-				<!-- <tr><td>Acadêmica</td><td>Andressa Alves Araújo Santos</td></tr>
-				<tr><td>Acadêmica</td><td>Caio César Barboza</td></tr> -->
-				<tr><td>Acadêmico</td><td>Lucas Canassa Galati</td></tr>
-				<tr><td>Acadêmica</td><td>Camila Aparecida Fonseca Souza</td></tr>
-				<tr><td>Acadêmico</td><td>Gabriel Coltri Mantovani</td></tr>
+				<tr><td>Acadêmico</td><td>Iuri da Silva Cortez</td></tr>
+				<tr><td>Acadêmica</td><td>Thiago Carreira Monteverdi</td></tr>
+				<tr><td>Acadêmico</td><td>Marcos Eduardo Pezoti</td></tr>
 			</tbody>
 
 			<thead>		
@@ -49,14 +45,11 @@
 			</thead>
 
 			<tbody>
-				<!-- <tr><td></td><td>Profa. Dra. Lesley Carina do Lago attadia Galli</td></tr>
-				<tr><td>Acadêmico</td><td>Kandy Horita</td></tr>
-				<tr><td>Acadêmico</td><td>Maria Luiza Piacenti Cardozo</td></tr>
-				<tr><td>Acadêmica</td><td>Taisa Facioli Homem de Melo</td></tr> -->
 				<tr><td></td><td>Prof. Dr. Sergio Silva Braga Junior</td></tr>
-				<tr><td>Acadêmica</td><td>Maria Luiza Piacenti Cardozo</td></tr>
-				<tr><td>Acadêmica</td><td>Samara Marques Gomes</td></tr>
-				<tr><td>Acadêmica</td><td>Aimeé Pichonelli</td></tr>
+				<tr><td>Acadêmica</td><td>Kézia Montezo Marques</td></tr>
+				<tr><td>Acadêmica</td><td>Stela Basso Montoro</td></tr>
+				<tr><td>Acadêmica</td><td>Renata Barreto Mendes</td></tr>
+				<tr><td>Acadêmica</td><td>Thais Peagno de Lima</td></tr>
 			</tbody>
 
 			<thead>		
@@ -65,10 +58,10 @@
 
 			<tbody>
 				<tr><td></td><td>Prof. Dr. David Ferreira Lopes Santos</td></tr>
-				<tr><td>Acadêmica</td><td>Giovana Romeu Faria</td></tr>
+				<tr><td>Acadêmica</td><td>Larissa Colavite Garcia</td></tr>
 				<tr><td>Acadêmica</td><td>Ana Luísa Pereira</td></tr>
-				<!--<tr><td>Acadêmico</td><td>Camila Aparecida Fonseca Souza</td></tr>-->
-				<tr><td>Acadêmico</td><td>Marcos Eduardo Pezoti</td></tr>
+				<tr><td>Acadêmico</td><td>Gabriela Mariano Rodrigues</td></tr>
+				<tr><td>Acadêmico</td><td>Ana Luisa Pereira</td></tr>
 				
 			</tbody>
 		</table>
