@@ -73,6 +73,8 @@
 							<li class="list-group-item"><a href="#">Cuyonomics. Investigaciones en Economía Regional</a></li>
 							<li class="list-group-item"><a href="#">Desenvolve Revista de Gestão Unilasalle</a></li>
 							<li class="list-group-item"><a href="#">Caderno de Administração</a></li>
+							<li class="list-group-item"><a href="#">Revista Desafio online</a></li>
+							
 							
 							
 						</ul>
