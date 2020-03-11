@@ -34,7 +34,7 @@
 	</tr>
 
 	<tr>
-		<td	>11/03/2020</td>
+		<td	>23/03/2020</td>
 		<td	>Encerramento da submissão de Trabalhos</td>
 	</tr>
 
