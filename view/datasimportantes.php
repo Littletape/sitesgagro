@@ -34,37 +34,37 @@
 	</tr>
 
 	<tr>
-		<td	>23/03/2020</td>
+		<td	>13/07/2020</td>
 		<td	>Encerramento da submissão de Trabalhos</td>
 	</tr>
 
 	<tr>
-		<td	>11/03/2020</td>
+		<td	>01/07/2020</td>
 		<td	>Início das inscrições com desconto</td>
 	</tr>
 
 	<tr>
-		<td>15/04/2020</td>
+		<td>10/08/2020</td>
 		<td	>Publicação dos resultados</td>
 	</tr>
 
 	<tr>
-		<td	>11/05/2020</td>
+		<td	>07/09/2020</td>
 		<td	>Fim das inscrições com desconto</td>
 	</tr>
 
 	<tr>
-		<td	>12/05/2020</td>
+		<td	>08/09/2020</td>
 		<td	>Início das inscrições sem desconto</td>
 	</tr>
 
 	<tr>
-		<td	>02/06/2020</td>
+		<td	>23/09/2020</td>
 		<td	>Fim das inscrições sem desconto</td>
 	</tr>
 
 	<tr>
-		<td	>03/06/2020 à 05/06/2020</td>
+		<td	>23/09/2020 a 25/09/2020</td>
 		<td	>Evento</td>
 	</tr>
 	
