@@ -91,7 +91,7 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" style="text-align: center">Os trabalhos devem estar de acordo com as normas descritas neste documento para serem aceitos, caso contrário serão desclassificados.</div>
 						<div class="panel-body">
-							<iframe  class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1" src="../template/TemplateSGAgro2018.pdf" height="1000"> </iframe>
+							<iframe  class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1" src="../template/TemplateSGAgro2019.pdf" height="1000"> </iframe>
 						</div>
 					</div>
 					

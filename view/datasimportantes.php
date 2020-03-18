@@ -34,13 +34,13 @@
 	</tr>
 
 	<tr>
-		<td	>13/07/2020</td>
-		<td	>Encerramento da submissão de Trabalhos</td>
+		<td	>01/07/2020</td>
+		<td	>Início das inscrições com desconto</td>
 	</tr>
 
 	<tr>
-		<td	>01/07/2020</td>
-		<td	>Início das inscrições com desconto</td>
+		<td	>13/07/2020</td>
+		<td	>Encerramento da submissão de Trabalhos</td>
 	</tr>
 
 	<tr>

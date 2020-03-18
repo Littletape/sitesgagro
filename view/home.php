@@ -90,6 +90,24 @@ $escreve =fwrite($abre, $ss);
 
       </div>
 
+<!-- modal da nota de esclarecimento -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modaNota">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+      <iframe  class="col-md-12" src="../documentos/NotadeesclarecimentoSGAgroPublico.pdf" height="1000"> </iframe>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 <!-- 
       <div class="col-md-4 col-xs-12">
@@ -134,4 +152,5 @@ $escreve =fwrite($abre, $ss);
   ga('create', 'UA-91044140-1', 'auto');
   ga('send', 'pageview');
 
+$('#modaNota').modal();
 </script>

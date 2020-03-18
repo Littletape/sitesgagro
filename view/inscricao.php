@@ -41,8 +41,8 @@ Obs.: coloquei um " * " em Profissionais só para atentar a quem se enquadra nes
 								<p>
 								<thead>
 									<th>Participante</th>
-									<th>Inscrições de 11/03/2020 até 11/05/2020 Com desconto</th>
-									<th>De 12/05/2020 até 02/06/2020 Sem desconto</th>
+									<th>Inscrições de 01/07/2020 até 07/09/2020 Com desconto</th>
+									<th>De 08/09/2020 até 23/09/2020 Sem desconto</th>
 								</thead>
 								<tbody>
 									<tr>
