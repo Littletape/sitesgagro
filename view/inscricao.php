@@ -53,8 +53,8 @@
 									</tr>
 									<tr>
 										<td>*Profissionais</td>
-										<td>R$ 130,00 </td>
-										<td>R$ 180,00</td>
+										<td>R$ 100,00 </td>
+										<td>R$ 120,00</td>
 									</tr>											
 								</tbody>
 								</p>
