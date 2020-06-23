@@ -33,6 +33,12 @@ $escreve =fwrite($abre, $ss);
     
   }
 
+  #bannerHome{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
   
 </style>
 <!DOCTYPE html>
@@ -47,7 +53,7 @@ $escreve =fwrite($abre, $ss);
 
     <div class="row bannerHome" >
       
-        <a href="submissao.php">  <img class="img-responsive" src="../webroot/images/bannerSiteSagro.jpg"> </a>
+        <a href="submissao.php">  <img class="img-responsive" id="bannerHome" src="../webroot/images/bannerSiteSgagro.jpg"> </a>
       
     </div>
 
@@ -152,5 +158,5 @@ $escreve =fwrite($abre, $ss);
   ga('create', 'UA-91044140-1', 'auto');
   ga('send', 'pageview');
 
-$('#modaNota').modal();
+// $('#modaNota').modal();
 </script>

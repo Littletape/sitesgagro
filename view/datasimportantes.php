@@ -19,14 +19,6 @@
 			</thead>
 
 
-<!-- 18/11/2019 - Abertura para submissão de trabalhos.
-18/11/2019 - Abertura das inscrições com desconto. 
-11/03/2019 - Encerramento da submissão de trabalhos. 
-15/04/2020 - Publicação dos resultados.
-11/05/2020 - Fim das inscrições com desconto. 
-12/05/2020 - Início das inscrições sem desconto. 
-02/06/2020 - Fim das inscrições sem desconto.
-03/06/2020 à 05/06/2020 - Evento  -->
 <tbody>	
 	<tr>
 		<td	>18/11/2019</td>
@@ -39,22 +31,22 @@
 	</tr>
 
 	<tr>
-		<td	>13/07/2020</td>
+		<td	>03/08/2020</td>
 		<td	>Encerramento da submissão de Trabalhos</td>
 	</tr>
 
 	<tr>
-		<td>10/08/2020</td>
+		<td>20/08/2020</td>
 		<td	>Publicação dos resultados</td>
 	</tr>
 
 	<tr>
-		<td	>07/09/2020</td>
+		<td	>08/09/2020</td>
 		<td	>Fim das inscrições com desconto</td>
 	</tr>
 
 	<tr>
-		<td	>08/09/2020</td>
+		<td	>09/09/2020</td>
 		<td	>Início das inscrições sem desconto</td>
 	</tr>
 
